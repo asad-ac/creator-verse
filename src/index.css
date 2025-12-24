@@ -1,14 +1,14 @@
-a {
-  text-decoration: none;
-}
-
 body {
   font-size: 1.1rem;
   margin: 0;
   padding: 0;
 }
 
-a:hover {
+html, body, #root {
+  height: 100%;
+}
+
+a, a:hover {
   text-decoration: none;
 }
 
@@ -41,10 +41,6 @@ a:hover {
   position: fixed;
   bottom: 0;
   width: 100%;
-}
-
-html, body, #root {
-  height: 100%;
 }
 
 .page{
@@ -116,7 +112,6 @@ html, body, #root {
   margin-left: 10px;
 }
 
-
 .links a:hover,
 .links a:focus {
   color: none;
@@ -146,12 +141,10 @@ html, body, #root {
   background-position: center;
 }
 
-
 .card-body > h3{
   color: whitesmoke;
   text-align: center;
 }
-
 
 .card-body {
   display: flex;
@@ -160,7 +153,6 @@ html, body, #root {
   gap: 0.5rem;
   flex: 1;
 }
-
 
 .card-btn {
   margin-top: auto;
@@ -220,6 +212,7 @@ html, body, #root {
 .loading-dots span:nth-child(1) {
   animation-delay: -0.32s;
 }
+
 .loading-dots span:nth-child(2) {
   animation-delay: -0.16s;
 }
