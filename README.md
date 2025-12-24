@@ -32,6 +32,8 @@ The following **additional** features are implemented:
 - [x] Responsive
 - [x] 404 Page
 - [x] Hero page animation
+- [x] React Icons
+- [x] .env
 
 ## Video Walkthrough
 
