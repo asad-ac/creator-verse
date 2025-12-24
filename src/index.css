@@ -224,6 +224,10 @@ a, a:hover {
   margin-top: 25px;
 }
 
+.hero p {
+  color: black;
+}
+
 .not-found {
   display: flex;
   flex-direction: column;
