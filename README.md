@@ -2,7 +2,7 @@
 
 Submitted by: **Asad Chaudhry**
 
-About this web app: **A web application to find, add, edit, and delete their favorite household names!**
+About this web app: **A web application to find, add, edit, and delete recognizable household names!**
 
 Time spent: **10** hours
 
