@@ -2,7 +2,7 @@
 
 Submitted by: **Asad Chaudhry**
 
-About this web app: **A web app to find, add, and edit their favorite household names!**
+About this web app: **A web application to find, add, edit, and delete their favorite household names!**
 
 Time spent: **10** hours
 
@@ -32,17 +32,17 @@ The following **additional** features are implemented:
 - [x] Responsive
 - [x] 404 Page
 - [x] Hero page animation
-- [x] React Icons
+- [x] React icons
 - [x] .env
 
 ## Video Walkthrough
 
 Here's a walkthrough of implemented required features:
 
-👉🏿<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 <!-- Replace this with whatever GIF tool you used! -->
-GIF created with ...  👉🏿 GIF tool here
+GIF created with ...   GIF tool here
 <!-- Recommended tools:
 [Kap](https://getkap.co/) for macOS
 [ScreenToGif](https://www.screentogif.com/) for Windows
@@ -50,7 +50,7 @@ GIF created with ...  👉🏿 GIF tool here
 
 ## Notes
 
-Describe any challenges encountered while building the app or any additional context you'd like to add.
+That was a lot of fun! I enjoyed creating the app and made adding or editing social media links dynamically render. Feels good that it can add some value for an user.
 
 ## License
 
