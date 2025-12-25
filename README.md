@@ -48,6 +48,8 @@ GIF created with Kap
 [ScreenToGif](https://www.screentogif.com/) for Windows
 [peek](https://github.com/phw/peek) for Linux. -->
 
+<img src='https://imgur.com/a/0izLGNN' title='Video Walkthrough' width='200px' alt='Video Walkthrough' />
+
 ![Video Walkthrough](Kapture 2025-12-24 at 19.17.29.gif)
 
 ## Notes
