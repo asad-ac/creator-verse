@@ -6,6 +6,11 @@ body {
 
 html, body, #root {
   height: 100%;
+  background-color: blue;
+}
+
+li a {
+  color: white;
 }
 
 a, a:hover {
