@@ -18,6 +18,7 @@ function App() {
         { path: "/add", element: <AddCreator /> },
         {path: "*", element: <NotFound />} ],
     },
+    {path: "*", element: <NotFound />}
   ]);
 
   return (
