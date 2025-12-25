@@ -6,11 +6,15 @@ body {
 
 html, body, #root {
   height: 100%;
-  background-color: blue;
+  background-color: darkblue;
 }
 
 li a {
   color: white;
+}
+
+.layout-creator {
+  color: red;
 }
 
 a, a:hover {

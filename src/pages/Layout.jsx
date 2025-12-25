@@ -7,7 +7,7 @@ export default function Layout() {
         <main className="container">
           <nav>
             <ul>
-              <li><strong>Creatorverse 🎨</strong></li>
+              <li className="layout-creator"><strong>Creatorverse</strong></li>
             </ul>
             <ul>
               <li><a href="/creators">View Creators</a></li>
