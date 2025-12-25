@@ -38,7 +38,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented required features:
 
-<a href="https://imgur.com/a/0izLGNN" aria-label="video walkthrough">Video Walkthrough </a>
+<a href="https://imgur.com/a/0izLGNN" target="_blank" aria-label="video walkthrough">Video Walkthrough </a>
 
 GIF created with Kap
 
