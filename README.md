@@ -39,10 +39,12 @@ The following **additional** features are implemented:
 Here's a walkthrough of implemented required features:
 
 <a href="https://imgur.com/a/0izLGNN" target="_blank" aria-label="video walkthrough">Video Walkthrough </a>
+<img src="" title="Video Walkthrough" width="" alt="Video Walkthrough" />
+
 
 GIF created with Kap
 
-![Video Walkthrough](Kapture 2025-12-24 at 19.17.29.gif)
+[Video Walkthrough](https://imgur.com/a/0izLGNN)
 
 ## Notes
 
