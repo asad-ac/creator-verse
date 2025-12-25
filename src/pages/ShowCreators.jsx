@@ -11,12 +11,15 @@ export default function ShowCreators() {
 
     useEffect(() => {
         const fetchCreators = async () => {
-        const {data} = await supabase
+        const {data, error} = await supabase
         .from('creators')
         .select()
-  
-        setCreators(data)
+          
+        if(!error) {
+          setCreators(data)
         }
+        
+        };
         fetchCreators()
     },[])
 
@@ -27,14 +30,7 @@ export default function ShowCreators() {
           {creators.map((creator) => (
             <ContentCreator
               key={creator.id}
-              id={creator.id}
-              name={creator.name}
-              youtube={creator.youtube}
-              imageURL={creator.imageURL}
-              description={creator.description}
-              linkedin={creator.linkedin}
-              instagram={creator.instagram}
-              x={creator.x} />
+              {...creator} />
           ))}
         </div>
         ) : (

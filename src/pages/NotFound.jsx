@@ -6,7 +6,7 @@ export default function NotFound() {
       <main className="not-found">
         <h1>404 – Page Not Found</h1>
         <Link to="/creators">
-          <button>Home</button>
+          <button aria-label="home">Home</button>
         </Link>
       </main>
     </div>

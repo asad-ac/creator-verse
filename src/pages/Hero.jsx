@@ -22,7 +22,7 @@ export default function Hero() {
         <main className="hero">
           <h1 className="hero-creator">Creatorverse</h1>
           <p>Discover and manage your favorite creators</p>
-          <button onClick={enterWorld} className="contrast"> Enter World </button>
+          <button onClick={enterWorld} aria-label="enter world" className="contrast"> Enter World </button>
         </main>
           <Footer />
         </div>

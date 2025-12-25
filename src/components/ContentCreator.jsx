@@ -10,7 +10,7 @@ export default function ContentCreator({ id, name, youtube, description, imageUR
             <div style={{ backgroundImage: `url(${imageURL})` }} />
         </div> </Link>
         <div className="creator">
-          <h3>{name}</h3>
+          <h3 className="creator-name">{name}</h3>
           <div className="navigate-icons">
             <Link to={`/creator/${id}`}> <FaInfoCircle size={36} /></Link>
             <Link to={`/edit/${id}`}> <MdEdit size={36} /> </Link>

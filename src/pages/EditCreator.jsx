@@ -72,7 +72,7 @@ export default function EditCreator() {
                 <label htmlFor="linkedin"> LinkedIn </label>
                 <input type="text" id="linkedin" name="linkedin" placeholder="LinkedIn URL" value={creator.linkedin} onChange={handleChange} />
 
-                <input type="submit" value="Update Creator" />
+                <input type="submit" aria-label="submit" value="Update Creator" />
             </form>
         </article>
       </>

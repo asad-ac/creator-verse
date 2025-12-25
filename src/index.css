@@ -13,6 +13,10 @@ li a {
   color: white;
 }
 
+.creator-name {
+  font-size: 32px;
+}
+
 .layout-creator {
   color: red;
   font-size: 1.5rem;
@@ -284,12 +288,3 @@ a, a:hover {
   transform: scale(6);
   transition: transform 550ms ease-in, opacity 150ms ease-in;
 }
-
-
-
-
-
-
-
-
-

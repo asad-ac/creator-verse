@@ -53,7 +53,6 @@ export default function ViewCreator() {
       <article className="create-container">
         <header className="view-header" style={{  backgroundImage: `url(${creator.imageURL})`, height: "500px", backgroundSize: "cover", backgroundPosition: "center", padding: "3rem 2rem",marginBottom: "1.5rem"}}>
           <h1 className="header-card">{creator.name}</h1>
-          {/* <a href={creator.youtube}  target="_blank" rel="noreferrer" role="button" >Social </a> */}
           <div className="view-socials">
             {creator.instagram ? <SocialIcon rel="noopener noreferrer" aria-label={`${creator.name} instagram`} target="_blank" network="instagram" url={creator.instagram} /> : null}
             {creator.x ? <SocialIcon rel="noopener noreferrer" network="x" aria-label={`${creator.name} x`} target="_blank" url={creator.x} /> : null}
@@ -65,8 +64,8 @@ export default function ViewCreator() {
         <p>{creator.description}</p>
 
         <div className="buttons">
-          <button onClick={updateCreator} className="secondary">Edit Creator</button>
-          <button className="contrast" onClick={openModal}> Delete Creator </button>
+          <button onClick={updateCreator} aria-label={` edit ${creator} card`} className="secondary">Edit Creator</button>
+          <button className="contrast" aria-label={` delete ${creator} card`} onClick={openModal}> Delete Creator </button>
         </div>
       </article>
 
