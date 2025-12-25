@@ -48,6 +48,8 @@ GIF created with Kap
 [ScreenToGif](https://www.screentogif.com/) for Windows
 [peek](https://github.com/phw/peek) for Linux. -->
 
+![Video Walkthrough](Kapture 2025-12-24 at 19.17.29.gif)
+
 ## Notes
 
 That was a lot of fun! I enjoyed creating the app and made adding or editing social media links dynamically render. Feels good that it can add some value for an user.
