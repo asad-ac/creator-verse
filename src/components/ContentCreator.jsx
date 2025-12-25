@@ -17,10 +17,10 @@ export default function ContentCreator({ id, name, youtube, description, imageUR
         </div>
           </div>
         <div className="card-socials">
-          {instagram ? <SocialIcon rel="noopener noreferrer" target="_blank" network="instagram" url={instagram} /> : null}
-          {x ? <SocialIcon bgColor="white" fgColor="black" network="x" rel="noopener noreferrer" target="_blank" url={x}/> : null}
-          {linkedin ? <SocialIcon rel="noopener noreferrer" network="linkedin" target="_blank" url={linkedin} />: null}
-          {youtube ? <SocialIcon rel="noopener noreferrer" network="youtube" target="_blank" url={youtube}/> : null}
+          {instagram ? <SocialIcon rel="noopener noreferrer" target="_blank" network="instagram" aria-label={`${name} instagram`} url={instagram} /> : null}
+          {x ? <SocialIcon bgColor="white" fgColor="black" network="x" rel="noopener noreferrer" aria-label={`${name} x`} target="_blank" url={x}/> : null}
+          {linkedin ? <SocialIcon rel="noopener noreferrer" network="linkedin" target="_blank"  aria-label={`${name} linkedin`}  url={linkedin} />: null}
+          {youtube ? <SocialIcon rel="noopener noreferrer" network="youtube" target="_blank"  aria-label={`${name} x`} url={youtube}/> : null}
         </div>
         <div className="card-body">
             <p>{description}</p>

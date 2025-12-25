@@ -55,10 +55,10 @@ export default function ViewCreator() {
           <h1 className="header-card">{creator.name}</h1>
           {/* <a href={creator.youtube}  target="_blank" rel="noreferrer" role="button" >Social </a> */}
           <div className="view-socials">
-            {creator.instagram ? <SocialIcon rel="noopener noreferrer" target="_blank" network="instagram" url={creator.instagram} /> : null}
-            {creator.x ? <SocialIcon rel="noopener noreferrer" network="x" target="_blank" url={creator.x} /> : null}
-            {creator.linkedin ? <SocialIcon rel="noopener noreferrer" target="_blank" network="linkedin" url={creator.linkedin} />: null}
-            {creator.youtube ? <SocialIcon rel="noopener noreferrer" target="_blank" network="youtube" url={creator.youtube} />: null}
+            {creator.instagram ? <SocialIcon rel="noopener noreferrer" aria-label={`${creator.name} instagram`} target="_blank" network="instagram" url={creator.instagram} /> : null}
+            {creator.x ? <SocialIcon rel="noopener noreferrer" network="x" aria-label={`${creator.name} x`} target="_blank" url={creator.x} /> : null}
+            {creator.linkedin ? <SocialIcon rel="noopener noreferrer" target="_blank" aria-label={`${creator.name} linkedin`} network="linkedin" url={creator.linkedin} />: null}
+            {creator.youtube ? <SocialIcon rel="noopener noreferrer" target="_blank" network="youtube" aria-label={`${creator.name} youtube`} url={creator.youtube} />: null}
           </div>
         </header>
 
