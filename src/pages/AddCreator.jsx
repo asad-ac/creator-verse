@@ -55,7 +55,7 @@ export default function AddCreator() {
                     <label htmlFor="linkedin"> LinkedIn </label>
                     <input type="text" id="linkedin" name="linkedin" placeholder="LinkedIn URL" onChange={handleChange} />
 
-                    <input type="submit" value="Create Post" />
+                    <input type="submit" value="Add Creator" />
                 </form>
             </article>
       </>
