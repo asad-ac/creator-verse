@@ -65,7 +65,7 @@ export default function ViewCreator() {
         <p>{creator.description}</p>
 
         <div className="buttons">
-          <button onClick={updateCreator}>Update Creator</button>
+          <button onClick={updateCreator} className="secondary">Update Creator</button>
           <button className="contrast" onClick={openModal}> Delete Creator </button>
         </div>
       </article>
