@@ -6,7 +6,7 @@ body {
 
 html, body, #root {
   height: 100%;
-  background-color: darkblue;
+  background-color: black;
 }
 
 li a {
@@ -39,6 +39,7 @@ a, a:hover {
   border-top: 1px solid var(--border-color);
   background: #0a0a0a;
   text-align: center;
+  color: white;
   position: static;
   bottom: 0;
   width: 100%;
@@ -61,10 +62,6 @@ a, a:hover {
 
 .page > main{
   flex: 1;
-}
-
-.withlove{
-  text-align: center;
 }
 
 .buttons {
