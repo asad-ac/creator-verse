@@ -42,8 +42,6 @@ Here's a walkthrough of implemented required features:
 
 GIF created with Kap
 
-<img src='https://imgur.com/a/0izLGNN' title='Video Walkthrough' width='200px' alt='Video Walkthrough' />
-
 ![Video Walkthrough](Kapture 2025-12-24 at 19.17.29.gif)
 
 ## Notes
