@@ -46,7 +46,7 @@ GIF created with Kap
 
 ## Notes
 
-That was a lot of fun! I enjoyed creating the app and made adding or editing social media links dynamically render. Feels good that it can add some value for an user. I think it would've been smarter if I did modals for the update and add pages instead. I think thats better for the user, I just immediately thought it should be on a different page.
+That was a lot of fun! I enjoyed creating the app and made adding or editing social media links dynamically render. Feels good that it can add some value for an user. It would've been smarter if I did modals for the update and add forms instead. I think thats better for the user, I just immediately thought it should be on a different page.
 
 ## License
 
