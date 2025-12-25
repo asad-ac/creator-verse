@@ -20,9 +20,9 @@ export default function Hero() {
       <div className="page">
         <div ref={overlayRef} className="transition-overlay" />
         <main className="hero">
-          <h1>Creatorverse</h1>
+          <h1 className="hero-creator">Creatorverse</h1>
           <p>Discover and manage your favorite creators</p>
-          <button onClick={enterWorld} className="enter-btn"> Enter World </button>
+          <button onClick={enterWorld} className="contrast"> Enter World </button>
         </main>
           <Footer />
         </div>

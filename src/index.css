@@ -78,8 +78,14 @@ a, a:hover {
 }
 
 .header-card {
-  position: absolute;
-  left: 100px;
+  writing-mode: sideways-rl;
+ position: absolute;
+ bottom: 0;
+ left: 0;
+}
+
+.hero-creator {
+  color: red;
 }
 
 .view-socials {
