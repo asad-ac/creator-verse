@@ -73,14 +73,21 @@ a, a:hover {
   gap: 30px;
 }
 
-.view-socials {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
+.view-header {
+  position: relative;
 }
 
 .header-card {
-  margin-bottom: 40px;
+  position: absolute;
+  left: 100px;
+}
+
+.view-socials {
+  display: flex;
+  gap: 20px;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
 }
 
 .cards {

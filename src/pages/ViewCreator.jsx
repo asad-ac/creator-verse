@@ -51,9 +51,9 @@ export default function ViewCreator() {
     return (
     <>
       <article className="create-container">
-        <header style={{  backgroundImage: `url(${creator.imageURL})`, height: "700px", backgroundSize: "cover", backgroundPosition: "center", padding: "3rem 2rem",marginBottom: "1.5rem"}}>
-          <h1 className="header-card">{creator.name}</h1>
+        <header className="view-header" style={{  backgroundImage: `url(${creator.imageURL})`, height: "700px", backgroundSize: "cover", backgroundPosition: "center", padding: "3rem 2rem",marginBottom: "1.5rem"}}>
           {/* <a href={creator.youtube}  target="_blank" rel="noreferrer" role="button" >Social </a> */}
+          <h1 className="header-card">{creator.name}</h1>
           <div className="view-socials">
             {creator.instagram ? <SocialIcon rel="noopener noreferrer" target="_blank" network="instagram" url={creator.instagram} /> : null}
             {creator.x ? <SocialIcon rel="noopener noreferrer" network="x" target="_blank" url={creator.x} /> : null}
