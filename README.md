@@ -10,7 +10,6 @@ Time spent: **10** hours
 
 The following **required** functionality is completed:
 
-<!-- 👉🏿👉🏿👉🏿 Make sure to check off completed functionality below -->
 - [x] **A logical component structure in React is used to create the frontend of the app**
 - [x] **At least five content creators are displayed on the homepage of the app**
 - [x] **Each content creator item includes their name, a link to their channel/page, and a short description of their content**
@@ -39,14 +38,9 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented required features:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<a href="https://imgur.com/a/0izLGNN" aria-label="video walkthrough">Video Walkthrough </a>
 
-<!-- Replace this with whatever GIF tool you used! -->
 GIF created with Kap
-<!-- Recommended tools:
-[Kap](https://getkap.co/) for macOS
-[ScreenToGif](https://www.screentogif.com/) for Windows
-[peek](https://github.com/phw/peek) for Linux. -->
 
 <img src='https://imgur.com/a/0izLGNN' title='Video Walkthrough' width='200px' alt='Video Walkthrough' />
 
