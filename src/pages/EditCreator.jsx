@@ -1,11 +1,15 @@
 import { useState, useEffect } from "react"
 import { useParams } from "react-router-dom"
 import { supabase } from "../client"
+import { useNavigate } from "react-router-dom";
+import toast from "react-hot-toast";
 
 export default function EditCreator() {
 
   const {id} = useParams()
-  const [creator, setCreator] = useState({id: null ,name: "", youtube: "", description: "", imageURL: "", linkedin: "", instagram: "", x: ""})
+  const [creator, setCreator] = useState({id: null, name: "", youtube: "", description: "", imageURL: "", linkedin: "", instagram: "", x: ""})
+
+  const navigate = useNavigate()
 
   const handleChange = (event) => {
     const {name, value} = event.target
@@ -39,12 +43,19 @@ export default function EditCreator() {
         alert("Please provide at least one social link.");
         return; 
       }
-    await supabase
+    const {error} = await supabase
     .from('creators')
     .update({ name: creator.name, description: creator.description, imageURL: creator.imageURL, youtube: creator.youtube, instagram: creator.instagram, linkedin: creator.linkedin, x: creator.x})
     .eq('id', id)
 
-    window.location = "/creators"
+    if (error) {
+      toast.error("Couldn’t update creator. Try again.");
+      return;
+    }
+  
+    toast.success("Creator updated.");
+
+    navigate("/creators")
 }
     return (
       <>

@@ -1,8 +1,13 @@
 import { useState } from "react"
 import { supabase } from "../client";
+import toast from "react-hot-toast";
+import { useNavigate } from "react-router-dom";
+
 export default function AddCreator() {
     
     const [creator, setCreator] = useState({id: null, name: "", youtube: "", description: "", imageURL: "", linkedin: "", instagram: "", x:""})
+    
+    const navigate = useNavigate()
 
     const addCreator = async (event) => {
         event.preventDefault();
@@ -11,12 +16,19 @@ export default function AddCreator() {
             alert("Please provide at least one social link.");
             return; 
           }
-        await supabase
+        const {error} = await supabase
         .from('creators')
         .insert({name: creator.name, youtube: creator.youtube, description: creator.description, imageURL: creator.imageURL,linkedin: creator.linkedin, instagram: creator.instagram, x: creator.x})
         .select()
 
-        window.location = "/creators"
+        if (error) {
+            toast.error("Couldn’t add creator. Try again.");
+            return;
+          }
+        
+        toast.success("Creator added.");
+
+        navigate("/creators")
     }
 
     const handleChange = (event) => {
