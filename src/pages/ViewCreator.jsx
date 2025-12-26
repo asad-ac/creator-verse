@@ -4,6 +4,7 @@ import { useNavigate } from "react-router-dom";
 import { useParams } from "react-router-dom";
 import { useRef } from "react";
 import { SocialIcon } from "react-social-icons";
+import toast from "react-hot-toast";
 
 export default function ViewCreator() {
 
@@ -14,21 +15,28 @@ export default function ViewCreator() {
     const { id } = useParams();
 
     const dialogRef = useRef(null);
+    const navigate = useNavigate();
 
     const openModal = () => dialogRef.current.showModal();
     const closeModal = () => dialogRef.current.close();
 
     const deleteCreator = async (event) => {
       event.preventDefault();
-      await supabase
+      const {error} = await supabase
       .from('creators')
       .delete()
-      .eq('id', id); 
+      .eq('id', id);
 
-      window.location = "/creators";
+      if (error) {
+        toast.error("Couldn’t delete creator. Try again.");
+        return;
+      }
+    
+      toast.success("Creator deleted.");
+
+
+      navigate("/creators");
   }
-
-  const navigate = useNavigate();
 
   const updateCreator = (event) => {
       event.preventDefault();
@@ -47,7 +55,7 @@ export default function ViewCreator() {
         }
         view();
     },[id])
-
+;
     return (
     <>
       <article className="create-container">
@@ -64,8 +72,8 @@ export default function ViewCreator() {
         <p>{creator.description}</p>
 
         <div className="buttons">
-          <button onClick={updateCreator} aria-label={` edit ${creator} card`} className="secondary">Edit Creator</button>
-          <button className="contrast" aria-label={` delete ${creator} card`} onClick={openModal}> Delete Creator </button>
+          <button onClick={updateCreator} aria-label={` edit ${creator.name}`} className="secondary">Edit Creator</button>
+          <button className="contrast" aria-label={` delete ${creator.name} card`} onClick={openModal}> Delete Creator </button>
         </div>
       </article>
 

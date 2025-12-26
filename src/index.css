@@ -288,3 +288,20 @@ a, a:hover {
   transform: scale(6);
   transition: transform 550ms ease-in, opacity 150ms ease-in;
 }
+
+.nav-link {
+  color: #cbd5e1;
+  text-decoration: none;
+  padding: 0.5rem 0.75rem;
+  transition: color 0.2s ease, border-bottom 0.2s ease;
+}
+
+.nav-link:hover {
+  color: red;
+}
+
+.nav-link.active {
+  color: black;
+  background-color: white;
+  border-radius: 10px;
+}

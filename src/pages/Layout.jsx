@@ -1,4 +1,5 @@
 import { Outlet } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 export default function Layout() {
   return (
@@ -10,8 +11,8 @@ export default function Layout() {
               <li className="layout-creator"><strong>Creatorverse</strong></li>
             </ul>
             <ul>
-              <li><a href="/creators">View Creators</a></li>
-              <li><a href="/add">Add Creator</a></li>
+              <NavLink to="/creators" className={({ isActive }) => isActive ? "nav-link active" : "nav-link"}>View Creators</NavLink>
+              <NavLink to="/add" className={({ isActive }) => isActive ? "nav-link active" : "nav-link"}>Add Creator</NavLink>
             </ul>
           </nav>
           <Outlet />

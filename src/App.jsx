@@ -6,6 +6,7 @@ import ShowCreators from "./pages/ShowCreators"
 import ViewCreator from "./pages/ViewCreator"
 import Hero from "./pages/Hero"
 import NotFound from "./pages/NotFound"
+import { Toaster } from "react-hot-toast"
 
 function App() {
 
@@ -23,6 +24,7 @@ function App() {
 
   return (
     <>
+    <Toaster position="top-right" />
       {routes}
     </>
   )
