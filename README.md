@@ -40,11 +40,11 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented required features:
 
-<img src="demo.gif" title="Video Walkthrough" width="" alt="Video Walkthrough" />
+<img src="demo3.gif" title="Video Walkthrough" width="" alt="Video Walkthrough" />
 
 GIF created with Kap
 
-<a href="https://imgur.com/a/0izLGNN" target="_blank" aria-label="video walkthrough">Video Walkthrough </a>
+<a href="https://imgur.com/a/AgM0uwX" target="_blank" aria-label="video walkthrough">Video Walkthrough </a>
 
 ## Notes
 
