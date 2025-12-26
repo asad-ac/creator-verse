@@ -43,7 +43,7 @@ Here's a walkthrough of implemented required features:
 
 GIF created with Kap
 
-<a href="https://imgur.com/a/AgM0uwX" target="_blank" aria-label="video walkthrough">Video Walkthrough (Same video, higher quality) </a>
+<a href="https://imgur.com/a/AgM0uwX" target="_blank" aria-label="video walkthrough">Video Walkthrough (same video, higher quality) </a>
 
 ## Notes
 
