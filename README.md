@@ -33,7 +33,7 @@ The following **additional** features are implemented:
 - [x] Hero page animation
 - [x] React icons
 - [x] .env
-- [x] 
+- [x] Real-time user feedback using React Toast
 
 ## Video Walkthrough
 
