@@ -21,7 +21,7 @@ export default function Hero() {
         <div ref={overlayRef} className="transition-overlay" />
         <main className="hero">
           <h1 className="hero-creator">Creatorverse</h1>
-          <p>Discover and manage your favorite creators</p>
+          <p className="hero-subtitle">Discover and manage your favorite creators</p>
           <button onClick={enterWorld} aria-label="enter world" className="contrast"> Enter World </button>
         </main>
           <Footer />
