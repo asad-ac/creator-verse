@@ -34,7 +34,6 @@ The following **additional** features are implemented:
 - [x] React icons
 - [x] .env
 - [x] Real time user feedback using React Toast
-- [x] Real-time user feedback using React Toast
 
 ## Video Walkthrough
 
