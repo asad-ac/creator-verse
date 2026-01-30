@@ -6,21 +6,23 @@ import { SocialIcon } from 'react-social-icons'
 export default function ContentCreator({ id, name, youtube, description, imageURL, instagram, x, linkedin }) {
   return (
     <div className="card">
-        <Link to={`/creator/${id}`}><div className="card-image">
+        <Link to={`/creator/${id}`}>
+          <div className="card-image">
             <div style={{ backgroundImage: `url(${imageURL})` }} />
-        </div> </Link>
+          </div> 
+        </Link>
         <div className="creator">
           <h3 className="creator-name">{name}</h3>
-          <div className="navigate-icons">
-            <Link to={`/creator/${id}`}> <FaInfoCircle size={36} /></Link>
-            <Link to={`/edit/${id}`}> <MdEdit size={36} /> </Link>
+            <div className="navigate-icons">
+              <Link to={`/creator/${id}`}> <FaInfoCircle size={36} /></Link>
+              <Link to={`/edit/${id}`}> <MdEdit size={36} /> </Link>
+            </div>
         </div>
-          </div>
         <div className="card-socials">
           {instagram ? <SocialIcon rel="noopener noreferrer" target="_blank" network="instagram" aria-label={`${name} instagram`} url={instagram} /> : null}
           {x ? <SocialIcon bgColor="white" fgColor="black" network="x" rel="noopener noreferrer" aria-label={`${name} x`} target="_blank" url={x}/> : null}
           {linkedin ? <SocialIcon rel="noopener noreferrer" network="linkedin" target="_blank"  aria-label={`${name} linkedin`}  url={linkedin} />: null}
-          {youtube ? <SocialIcon rel="noopener noreferrer" network="youtube" target="_blank"  aria-label={`${name} x`} url={youtube}/> : null}
+          {youtube ? <SocialIcon rel="noopener noreferrer" network="youtube" target="_blank"  aria-label={`${name} youtube`} url={youtube}/> : null}
         </div>
         <div className="card-body">
             <p>{description}</p>
