@@ -31,7 +31,7 @@ The following **additional** features are implemented:
 - [x] Responsive
 - [x] 404 Page
 - [x] Hero page animation
-- [x] React icons
+- [x] Dynamic supabase integration
 - [x] .env
 - [x] Real time user feedback using React Toast
 
