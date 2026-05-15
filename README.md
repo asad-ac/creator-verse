@@ -1,4 +1,4 @@
-# WEB103 Prework - *Creatorverse*
+# *Creatorverse*
 
 Submitted by: **Asad Chaudhry**
 
@@ -35,7 +35,7 @@ The following **additional** features are implemented:
 
 ## Video Walkthrough
 
-Here's a walkthrough of implemented required features:
+Here's a walkthrough of implemented features:
 
 <img src="demo3.gif" title="Video Walkthrough" width="" alt="Video Walkthrough" />
 
